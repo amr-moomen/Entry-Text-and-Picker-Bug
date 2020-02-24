@@ -27,7 +27,7 @@
             <Label Grid.Row="1" Grid.Column="0"  x:Name="Usernamelabel" Text=" اسم المستخدم" Label.TextColor="Black"  HorizontalOptions="Start"/>
             <Entry Grid.Row="2" Grid.Column="0"  x:Name="usernameEntry" Text="عمرو حسنى" VisualElement.BackgroundColor="White" Entry.TextColor="Black"  ReturnType="Next"  HorizontalOptions="Start" HorizontalTextAlignment="Start" WidthRequest="350"/>
             <Label Grid.Row="3" Grid.Column="0"   x:Name="Addresslabel" Text="العنوان" Label.TextColor="Black"  HorizontalOptions="Start"/>
-            <Entry Grid.Row="4" Grid.Column="0"  x:Name="AddressEntry" VisualElement.BackgroundColor="White" Text="مصر"  Entry.TextColor="Black"  HorizontalOptions="Start" HorizontalTextAlignment="Start"  WidthRequest="350"/>
+            <Entry Grid.Row="4" Grid.Column="0"  x:Name="AddressEntry" VisualElement.BackgroundColor="White" Placeholder="ادخل العنوان"  Entry.TextColor="Black"  HorizontalOptions="Start" HorizontalTextAlignment="Start"  WidthRequest="350"/>
             <Label Grid.Row="5" Grid.Column="0"   x:Name="Genderlabel" Text="النوع" Label.TextColor="Black"  HorizontalOptions="Start"/>
             <Picker  Grid.Row="6" Grid.Column="0"  x:Name="GenderPicker"  > </Picker>
             <Button Grid.Row="7" Grid.Column="0" Text="تغيير اللغه" Clicked="ChangeLangugeClicked"></Button>

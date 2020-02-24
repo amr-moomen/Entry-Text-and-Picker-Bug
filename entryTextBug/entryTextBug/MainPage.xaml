@@ -25,7 +25,7 @@
             <Label Grid.Row="1" Grid.Column="0"  x:Name="Usernamelabel" Text="User Name" Label.TextColor="Black"  HorizontalOptions="Start"/>
             <Entry Grid.Row="2" Grid.Column="0"  x:Name="usernameEntry" Text="Amr hosny"  VisualElement.BackgroundColor="White" Entry.TextColor="Black"  ReturnType="Next"  HorizontalOptions="Start" HorizontalTextAlignment="Start" WidthRequest="350"/>
             <Label Grid.Row="3" Grid.Column="0"   x:Name="Addresslabel" Text="Age" Label.TextColor="Black"  HorizontalOptions="Start"/>
-            <Entry Grid.Row="4" Grid.Column="0"  x:Name="AddressEntry" Text="Egypt" VisualElement.BackgroundColor="White"  Entry.TextColor="Black"   HorizontalOptions="Start" HorizontalTextAlignment="Start"  WidthRequest="350"/>
+            <Entry Grid.Row="4" Grid.Column="0"  x:Name="AddressEntry" Placeholder="enter your address" VisualElement.BackgroundColor="White"  Entry.TextColor="Black"   HorizontalOptions="Start" HorizontalTextAlignment="Start"  WidthRequest="350"/>
             <Label Grid.Row="5" Grid.Column="0"   x:Name="Genderlabel" Text="Gender" Label.TextColor="Black"  HorizontalOptions="Start"/>
             
             <Picker  Grid.Row="6" Grid.Column="0"  x:Name="GenderPicker"  ></Picker>
